@@ -57,7 +57,7 @@ function ending(x){
             break;
         default:
             console.log("invalid answer.");
-            let choice3 = readlineSync.question("What would you like to do?");
+            let x = readlineSync.question("What would you like to do?");
             ending(x);
     }
 }
